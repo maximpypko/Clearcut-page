@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltexSoft Lab</title>
+    <!--========== Fontawesome ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <!--========= Reset styles ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" />
+    <!--========= Custom styles ==========-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="clearcut logotype">
+                    </a>
+                </div>
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Styledemo</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Full width</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Dropdown</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Gallery</a></li>
+                </ul>
+
+                <input type="checkbox" name="nav__trigger" id="nav__modal-switcher" />
+                <label for="nav__modal-switcher" class="nav__list-open fas fa-bars"></label>
+                <ul class="nav__modal">
+                    <li>
+                        <label for="nav__modal-switcher" class=" nav__modal-item--close fas fa-times"></label>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Home</a>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Styledemo</a>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Full width</a>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Dropdown</a>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Portfolio</a>
+                    </li>
+                    <li class="nav__modal-item">
+                        <a href="#" class="nav__modal-link">Gallery</a>
+                    </li>
+                </ul>
+                <!-- ////////////////////////////////////////// -->
+            </nav>
+            <section class="hero">
+                <div class="hero__title-wrapper">
+                    <p class="hero__title">
+                        “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam
+                        erat. In fringilla massa ut nisi ullamcorper pellentesque „
+                    </p>
+                </div>
+                <div class="slider">
+                    <input checked type=radio name="slider" id="slide1" />
+                    <input type=radio name="slider" id="slide2" />
+                    <input type=radio name="slider" id="slide3" />
+                    <input type=radio name="slider" id="slide4" />
+                    <input type=radio name="slider" id="slide5" />
+                    <div class="slider-wrapper">
+                        <div class=inner>
+                            <article>
+                                <h1 class="slider__title">This Is A Very Long Slider Title</h1>
+                                <p class="slider__text">
+                                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit
+                                    intesque sed. Facilispede estibulum nulla orna nisl velit.
+                                </p>
+                                <img src="img/slider-foto-1.jpg" />
+                            </article>
+                            <article>
+                                <img src="img/slider-foto-2.jpg" />
+                            </article>
+                            <article>
+                                <img src="img/slider-foto-3.jpg" />
+                            </article>
+                            <article>
+                                <img src="img/slider-foto-4.jpg" />
+                            </article>
+                            <article>
+                                <img src="img/slider-foto-5.jpg" />
+                            </article>
+                        </div>
+                    </div>
+                    <div class="slider-prev-next-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                    </div>
+                    <div class="slider-dot-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                        <label for=slide5></label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="content">
+                <div class="content__column about">
+                    <h2 class="content__topic">A Little About Us</h2>
+                    <div class="about__image-container">
+                        <img src="https://placeimg.com/270/140/any" alt='some photography'>
+                    </div>
+                    <p class="content__text">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget
+                        tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit nonummy laoreet
+                        phasellent penatoque in antesque pellus elis eget tincidunt.</p>
+                    <p class="content__text">
+                        Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque
+                        pellus elis eget tincidunt.</p>
+                    <p class="content__text content__information-wrapper">
+                        <a href="#" class="information-link content__information">
+                            Read More About Us »
+                        </a>
+                    </p>
+                </div>
+                <div class="content__column service">
+                    <h2 class="content__topic">Some of Our Services</h2>
+                    <ul class="service__list">
+                        <li class="service__item">
+                            <div class="service__avatar">
+                                <img src="https://placeimg.com/85/85/any" alt="avatar">
+                            </div>
+                            <div>
+                                <h4 class="service__title">Service Titile</h4>
+                                <p class="content__text service__text">Inteligula congue id elis donec sce sag ittis
+                                    intes id
+                                    laoreet aenean. </p>
+                            </div>
+                        </li>
+                        <li class="service__item">
+                            <div class="service__avatar">
+                                <img src="https://placeimg.com/85/85/any" alt="avatar">
+                            </div>
+                            <div>
+                                <h4 class="service__title">Service Titile</h4>
+                                <p class="content__text service__text">Inteligula congue id elis donec sce sag ittis
+                                    intes id
+                                    laoreet aenean. </p>
+                            </div>
+                        </li>
+                        <li class="service__item">
+                            <div class="service__avatar">
+                                <img src="https://placeimg.com/85/85/any" alt="avatar">
+                            </div>
+                            <div>
+                                <h4 class="service__title">Service Titile</h4>
+                                <p class="content__text service__text">Inteligula congue id elis donec sce sag ittis
+                                    intes id
+                                    laoreet aenean. </p>
+                            </div>
+                        </li>
+                        <li class="service__item">
+                            <div class="service__avatar">
+                                <img src="https://placeimg.com/85/85/any" alt="avatar">
+                            </div>
+                            <div>
+                                <h4 class="service__title">Service Titile</h4>
+                                <p class="content__text service__text">Inteligula congue id elis donec sce sag ittis
+                                    intes id
+                                    laoreet aenean. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="content__information-wrapper">
+                        <a href="#" class="information-link content__information">
+                            View All Of Our Services »
+                        </a>
+                    </p>
+                </div>
+                <div class="content__column reviews">
+                    <h2 class="content__topic">What Our Clients Say</h2>
+                    <ul class="rewiews__list">
+                        <li>
+                            <h3 class="rewiews__title">Tommy Tanker - CEO</h3>
+                            <p class="content__text rewiews__text">Justoid nonummy laoreet phasellent penatoque in
+                                antesque pellus
+                                elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit.
+                                Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+                            <p class="content__information-wrapper">
+                                <a href="#" class="information-link">
+                                    View This Project »
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="rewiews__title">Tommy Tanker - CEO</h3>
+                            <p class="content__text rewiews__text">Justoid nonummy laoreet phasellent penatoque in
+                                antesque pellus
+                                elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit.
+                                Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+                            <p class="content__information-wrapper">
+                                <a href="#" class="information-link">
+                                    View This Project »
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__top">
+            <div class="footer__column footer__contacts">
+                <h3 class="footer__topic">Company Details</h3>
+                <ul class="contacts__list">
+                    <li class="contacts__item contacts__adress">
+                        <p>Company Name</p>
+                        <p>Street Name & Number</p>
+                        <p>Town</p>
+                        <p>Postcode/Zip</p>
+                    </li>
+                    <li class="contacts__item contacts__tel">
+                        <p>Tel:
+                            <a href="tel:+380501234567" class="information-link">
+                                +38 050 123 45 67
+                            </a>
+                        </p>
+                        <p>Fax:
+                            <a href="fax:+380501234567" class="information-link">
+                                +38 050 123 45 67
+                            </a>
+                        </p>
+                        <p>Email:
+                            <a href="mailto:contact@mydomain.com" class="information-link">
+                                contact@mydomain.com
+                            </a>
+                        </p>
+                    </li>
+                    <li class="contacts__item contacts__working-hours">
+                        <h5 class="contacts__hours-title">Office Hours</h5>
+                        <p>Monday - Friday: 08:00 - 17:30</p>
+                        <p>Saturday: 08:00 - 13:00</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__column footer__social">
+                <h3 class="footer__topic">Stay Social</h3>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/" class="social__link social__linkedin">
+                            Get linked up in LinkedIn
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://twitter.com/" class="social__link social__twitter">
+                            Keep up with our Tweets
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.pinterest.ru/" class="social__link social__pinterest">
+                            Photos on Pinterest
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link social__rss">
+                            RSS Feed
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__column footer__blog">
+                <h3 class="footer__topic">From The Blog</h3>
+                <ul>
+                    <li class="blog__item">
+                        <h4 class="blog__title">Blog Post Title</h4>
+                        <p class="blog__text">Posted by Admin on 00.00.0000</p>
+                        <p class="blog__text">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+                            elit intesque sed facilispede estibulum.</p>
+
+                        <p class="blog__information-link-wrapper">
+                            <a href="#" class="information-link blog__information-link">
+                                Read More»
+                            </a>
+                        </p>
+                    </li>
+                    <li class="blog__item">
+                        <h4 class="blog__title">From The Blog</h4>
+                        <p class="blog__text">Posted by Admin on 00.00.0000</p>
+                        <p class="blog__text">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+                            elit intesque sed facilispede estibulum.</p>
+                        <p class="blog__information-link-wrapper">
+                            <a href="#" class="information-link blog__information-link">
+                                Read More»
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__column footer__form">
+                <h3 class="footer__topic">Contact Us</h3>
+                <form class="contacts__form" method="post">
+                    <input class="contacts__input" id="contacts-name" required type="text" placeholder="Name" />
+                    <input class="contacts__input" id="contacts-email" required type="email" placeholder="Email" />
+                    <textarea class="contacts__input" id="customer-wishes" required rows="6" maxlength="200"
+                        placeholder="Message"></textarea>
+                    <button class="form-button" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="footer__bottom">
+            <div class="footer__bottom-column">
+                <p class="content__text">Copyright © 2013 Domain Name - All Rights Reserved</p>
+            </div>
+            <div class="footer__bottom-column">
+                <p class="content__text">Template by OS Templates</p>
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
